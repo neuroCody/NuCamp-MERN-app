@@ -1,5 +1,4 @@
 const express = require('express')
-const { findOneAndDelete } = require('../models/campsite')
 const campsiteRouter = express.Router()
 const Campsite = require('../models/campsite')
 
